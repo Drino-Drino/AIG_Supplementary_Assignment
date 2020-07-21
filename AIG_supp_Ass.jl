@@ -27,7 +27,7 @@ for i in 1:numberOfstorObjects
 end
 
 actualObjContentArray = Array{Array}(undef, numberOfstorObjects)
-s = Stack{Int}()
+
 #Assign Array objetcs within
 for i in 1:numberOfstorObjects
     for j in 1:numberOfBlocks
@@ -47,7 +47,7 @@ end
 end
 
 #Show user current configuration of storage/carrier objects
-
+displayDict = Dict(
 
 
 
